@@ -1,0 +1,52 @@
+/* Media query para pantallas pequeñas (tablets y móviles) */
+@media screen and (max-width: 768px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Evita el scroll horizontal */
+        box-sizing: border-box; /* Asegura que el padding y border no incrementen el tamaño */
+    }  
+    .menu-link ul {
+        display: none; /* Ocultar los elementos del menú en pantallas pequeñas */
+    }
+
+    .header-nombre, .menu-link-email {
+        display: inline-flex; /* Mostrar el nombre y correo */
+        align-items: center;
+    }
+
+    .intro{
+        margin-bottom: 20px;
+        width: 75%;
+    }
+    .intro p{
+        font-size: 22px;
+        line-height: 25px;
+        
+    }
+
+    .intro .intro-me-section, .intro ul{
+        font-size: 1rem;
+        line-height: 18.78px;
+    }
+    .profile-img img{
+        width: 150px;
+        height: 146px;
+    }
+    .section-to-me-text{
+        width: 100%;
+    }
+    .section-to-me-text .section-me-title{
+        font-size: 22px;
+    }
+    .section-me-title-text{
+        font-size: 1rem;
+    }
+
+
+    .contact-img{
+        display: none;
+    }
+}
+

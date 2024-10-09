@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    color: #F5F5F5;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    color: #464646;
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content:space-between;   
+    padding: 2rem 5%;
+    box-sizing:border-box ; /*Para indicarle que sea solamente al tamaño de la caja*/
+}
+
+.menu-link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.header-nombre{
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    white-space: nowrap;
+    gap: 8px;
+}
+
+
+
+.menu-link a{
+    text-decoration: none;
+
+}
+
+.menu-link-general a:hover{
+    color: #7300ef;
+}
+
+.menu-link-email{
+    font-weight: 700;
+}
+/*Intro-Profile*/
+.intro-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    
+}
+.intro p, .intro ul{
+    display: flex;
+    width: 95%;
+    padding: 0 5%;
+}
+
+
+.intro-me{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+}
+
+.profile-img img{
+    width: 23rem;
+    height: 23rem;
+    padding: auto;  
+}
+
+.intro-me-section{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.send-social{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.section-social ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+
+}
+
+.section-social a{
+    text-decoration: none;
+    
+}
+
+.section-social li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+.element-img{
+    width: 23rem;
+    height: 23rem;
+}
+
+.section-social li:hover{
+    color: #7300ef;
+}
+/*to me*/
+.section-to-me{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 5rem 5%;
+    background-color: #e6ddf8;
+}
+
+.section-to-me-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
+    gap: 15px;
+}
+
+.section-to-me-text .section-me-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.section-me-title-text{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+}
+
+/*Skills & hobbies*/
+.skills h4,
+.hobbies h4, 
+.academic-training h4, 
+.section-laboral h4{
+
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    text-align: center;
+}
+.skills, .hobbies, .academic-training{
+    display: flex;
+    flex-direction: column;
+    background-color:#F5F5F5;
+    gap:16px;
+    padding: 2rem 5%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+.skills-icons-items, .hobbies-icons-items{
+    display: flex;
+    justify-content:start;
+    gap: 20px;
+}
+
+
+.skills-icons, .hobbies-icons {
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
+    align-items:flex-start;
+    background-color: #ffffff;
+    padding: 1.9rem;
+    gap: 8px;
+    width: 11rem;
+    height: 10rem;
+    
+}
+
+.skills img, .hobbies img{
+    margin-top: 3.3rem;
+    
+}
+
+.hobbies img{
+width: 30px;
+height: 30px;
+}
+
+.skills figcaption, .hobbies figcaption{
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+
+.hobbies-icons, .skills-icons{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*Formación*/
+.academic-icons-img-unah, .academic-icons-img{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.academic-icons-img{
+    width: 235px;
+}
+
+
+.academic-logos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 64%;
+}
+.academic-icons-img-unah{
+    width: 255px;
+}
+
+.academic-training{
+    background-color:#e6ddf8;
+    padding: 2rem 5vw;
+}
+
+.academic-logos article{ 
+    margin-top: 12px;
+}
+
+
+/*Experiencia*/
+.section-laboral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 1rem 5%;
+}
+
+
+.section-laboral-all{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+    
+}
+
+.img-encriptador{
+    width: 752px;
+    padding: 1rem 5%;
+}
+
+.section-experience-img{
+background-color: #F5F5F5;  
+}
+.section-experience-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    gap: 20px;
+}
+
+.section-experience h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.experience-btn{
+    border: #7B61FF solid 1px;
+    padding: 16px;
+    gap: 10px;
+    font-size: 1rem;
+    line-height: 18.78px;
+    font-weight: 400;
+
+}
+
+.section-experience-text .button{
+    display: flex;
+    gap: 16px;
+}
+
+.btn-demo{
+    background-color: #7B61FF;
+    color: #ffffff;
+}
+
+.btn-demo:hover{
+    background-color: #7300ef;
+}
+
+.btn-repo:hover{
+    border-color: #7300ef;
+    color: #7300ef;
+}
+
+/*Section Contact*/
+.section-laboral{
+    padding: 2rem  5%;
+    width: 100%;
+}
+
+
+
+.contact-img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 4rem;
+    margin-top: 8rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color: #e6ddf8;   
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem 5%;
+}
+
+.form .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-form .form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-form h4{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 37.57px;
+}
+
+.form-group{
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    
+    
+}
+.form-group label{
+    font-size: 0.8rem;
+    color: #A2A2A2;
+}
+
+.form {
+    padding: 10px;
+}
+
+.form .input{
+    border: none;
+    border-radius: 5px;
+    outline: none;  /* Eliminamos el contorno al enfocar */
+}
+
+.form .input-asunto{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+}
+
+.form textarea {
+    display: flex;
+    justify-content:start;
+    padding: 10px;
+    height: 133px;
+    resize: none;
+}
+.form ::placeholder{
+    color: #A2A2A2;
+    
+}
+.input-btn:hover{
+    background-color: #7300ef;
+}
+
+.input-btn{
+    background-color: #7B61FF;
+    color: #ffffff;
+    padding: 16px;
+    width: 144px;
+    height: 51px;
+    border: none;
+}
+
+/*Footer*/
+.footer{
+    background-color:#7300ef;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;  
+    padding: 10px;
+}
+footer p{
+    color: #ffffff;
+}
